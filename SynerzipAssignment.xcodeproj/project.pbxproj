@@ -13,6 +13,36 @@
 		AD8644A324FA645C0069C5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8644A124FA645C0069C5A4 /* Main.storyboard */; };
 		AD8644A524FA64600069C5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8644A424FA64600069C5A4 /* Assets.xcassets */; };
 		AD8644A824FA64600069C5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8644A624FA64600069C5A4 /* LaunchScreen.storyboard */; };
+		AD8644C324FA64C60069C5A4 /* 04d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B024FA64C50069C5A4 /* 04d.png */; };
+		AD8644C424FA64C60069C5A4 /* 13d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B124FA64C50069C5A4 /* 13d.png */; };
+		AD8644C524FA64C60069C5A4 /* 50d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B224FA64C50069C5A4 /* 50d.png */; };
+		AD8644C624FA64C60069C5A4 /* 13n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B324FA64C50069C5A4 /* 13n.png */; };
+		AD8644C724FA64C60069C5A4 /* placer.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B424FA64C50069C5A4 /* placer.png */; };
+		AD8644C824FA64C60069C5A4 /* 03d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B524FA64C50069C5A4 /* 03d.png */; };
+		AD8644C924FA64C60069C5A4 /* 02d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B624FA64C50069C5A4 /* 02d.png */; };
+		AD8644CA24FA64C60069C5A4 /* 04n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B724FA64C50069C5A4 /* 04n.png */; };
+		AD8644CB24FA64C60069C5A4 /* 10d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B824FA64C50069C5A4 /* 10d.png */; };
+		AD8644CC24FA64C60069C5A4 /* 50n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644B924FA64C50069C5A4 /* 50n.png */; };
+		AD8644CD24FA64C60069C5A4 /* 03n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644BA24FA64C50069C5A4 /* 03n.png */; };
+		AD8644CE24FA64C60069C5A4 /* 11n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644BB24FA64C50069C5A4 /* 11n.png */; };
+		AD8644CF24FA64C60069C5A4 /* 02n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644BC24FA64C50069C5A4 /* 02n.png */; };
+		AD8644D024FA64C60069C5A4 /* 01n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644BD24FA64C50069C5A4 /* 01n.png */; };
+		AD8644D124FA64C60069C5A4 /* 01d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644BE24FA64C50069C5A4 /* 01d.png */; };
+		AD8644D224FA64C60069C5A4 /* 10n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644BF24FA64C50069C5A4 /* 10n.png */; };
+		AD8644D324FA64C60069C5A4 /* 09n.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644C024FA64C60069C5A4 /* 09n.png */; };
+		AD8644D424FA64C60069C5A4 /* 11d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644C124FA64C60069C5A4 /* 11d.png */; };
+		AD8644D524FA64C60069C5A4 /* 09d.png in Resources */ = {isa = PBXBuildFile; fileRef = AD8644C224FA64C60069C5A4 /* 09d.png */; };
+		AD8644DB24FA65CC0069C5A4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644D724FA65CC0069C5A4 /* Constants.swift */; };
+		AD8644DC24FA65CC0069C5A4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644D824FA65CC0069C5A4 /* Reachability.swift */; };
+		AD8644DD24FA65CC0069C5A4 /* RequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644D924FA65CC0069C5A4 /* RequestConfiguration.swift */; };
+		AD8644DE24FA65CC0069C5A4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644DA24FA65CC0069C5A4 /* NetworkManager.swift */; };
+		AD8644E024FA67530069C5A4 /* SearchRequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644DF24FA67530069C5A4 /* SearchRequestConfig.swift */; };
+		AD8644E224FA68410069C5A4 /* SearchRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644E124FA68410069C5A4 /* SearchRequestService.swift */; };
+		AD8644E524FA69150069C5A4 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644E424FA69150069C5A4 /* CityModel.swift */; };
+		AD8644E724FA6A820069C5A4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644E624FA6A820069C5A4 /* ViewModel.swift */; };
+		AD8644E924FA6BA90069C5A4 /* GlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644E824FA6BA90069C5A4 /* GlobalHelper.swift */; };
+		AD8644EC24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644EA24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift */; };
+		AD8644ED24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8644EB24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +54,36 @@
 		AD8644A424FA64600069C5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD8644A724FA64600069C5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD8644A924FA64600069C5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8644B024FA64C50069C5A4 /* 04d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04d.png; sourceTree = "<group>"; };
+		AD8644B124FA64C50069C5A4 /* 13d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13d.png; sourceTree = "<group>"; };
+		AD8644B224FA64C50069C5A4 /* 50d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50d.png; sourceTree = "<group>"; };
+		AD8644B324FA64C50069C5A4 /* 13n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13n.png; sourceTree = "<group>"; };
+		AD8644B424FA64C50069C5A4 /* placer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placer.png; sourceTree = "<group>"; };
+		AD8644B524FA64C50069C5A4 /* 03d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03d.png; sourceTree = "<group>"; };
+		AD8644B624FA64C50069C5A4 /* 02d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02d.png; sourceTree = "<group>"; };
+		AD8644B724FA64C50069C5A4 /* 04n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04n.png; sourceTree = "<group>"; };
+		AD8644B824FA64C50069C5A4 /* 10d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10d.png; sourceTree = "<group>"; };
+		AD8644B924FA64C50069C5A4 /* 50n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50n.png; sourceTree = "<group>"; };
+		AD8644BA24FA64C50069C5A4 /* 03n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03n.png; sourceTree = "<group>"; };
+		AD8644BB24FA64C50069C5A4 /* 11n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11n.png; sourceTree = "<group>"; };
+		AD8644BC24FA64C50069C5A4 /* 02n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02n.png; sourceTree = "<group>"; };
+		AD8644BD24FA64C50069C5A4 /* 01n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01n.png; sourceTree = "<group>"; };
+		AD8644BE24FA64C50069C5A4 /* 01d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01d.png; sourceTree = "<group>"; };
+		AD8644BF24FA64C50069C5A4 /* 10n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10n.png; sourceTree = "<group>"; };
+		AD8644C024FA64C60069C5A4 /* 09n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09n.png; sourceTree = "<group>"; };
+		AD8644C124FA64C60069C5A4 /* 11d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11d.png; sourceTree = "<group>"; };
+		AD8644C224FA64C60069C5A4 /* 09d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09d.png; sourceTree = "<group>"; };
+		AD8644D724FA65CC0069C5A4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AD8644D824FA65CC0069C5A4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AD8644D924FA65CC0069C5A4 /* RequestConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConfiguration.swift; sourceTree = "<group>"; };
+		AD8644DA24FA65CC0069C5A4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AD8644DF24FA67530069C5A4 /* SearchRequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequestConfig.swift; sourceTree = "<group>"; };
+		AD8644E124FA68410069C5A4 /* SearchRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRequestService.swift; sourceTree = "<group>"; };
+		AD8644E424FA69150069C5A4 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		AD8644E624FA6A820069C5A4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AD8644E824FA6BA90069C5A4 /* GlobalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalHelper.swift; sourceTree = "<group>"; };
+		AD8644EA24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD8644EB24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetailCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,10 @@
 		AD86449A24FA645C0069C5A4 /* SynerzipAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				AD8644E324FA69090069C5A4 /* Models */,
+				AD8644DF24FA67530069C5A4 /* SearchRequestConfig.swift */,
+				AD8644D624FA65AE0069C5A4 /* Helpers */,
+				AD8644AF24FA64A40069C5A4 /* images */,
 				AD86449B24FA645C0069C5A4 /* AppDelegate.swift */,
 				AD86449D24FA645C0069C5A4 /* SceneDelegate.swift */,
 				AD86449F24FA645C0069C5A4 /* ViewController.swift */,
@@ -63,8 +127,58 @@
 				AD8644A424FA64600069C5A4 /* Assets.xcassets */,
 				AD8644A624FA64600069C5A4 /* LaunchScreen.storyboard */,
 				AD8644A924FA64600069C5A4 /* Info.plist */,
+				AD8644E124FA68410069C5A4 /* SearchRequestService.swift */,
+				AD8644E624FA6A820069C5A4 /* ViewModel.swift */,
+				AD8644EA24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift */,
+				AD8644EB24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib */,
 			);
 			path = SynerzipAssignment;
+			sourceTree = "<group>";
+		};
+		AD8644AF24FA64A40069C5A4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AD8644BE24FA64C50069C5A4 /* 01d.png */,
+				AD8644BD24FA64C50069C5A4 /* 01n.png */,
+				AD8644B624FA64C50069C5A4 /* 02d.png */,
+				AD8644BC24FA64C50069C5A4 /* 02n.png */,
+				AD8644B524FA64C50069C5A4 /* 03d.png */,
+				AD8644BA24FA64C50069C5A4 /* 03n.png */,
+				AD8644B024FA64C50069C5A4 /* 04d.png */,
+				AD8644B724FA64C50069C5A4 /* 04n.png */,
+				AD8644C224FA64C60069C5A4 /* 09d.png */,
+				AD8644C024FA64C60069C5A4 /* 09n.png */,
+				AD8644B824FA64C50069C5A4 /* 10d.png */,
+				AD8644BF24FA64C50069C5A4 /* 10n.png */,
+				AD8644C124FA64C60069C5A4 /* 11d.png */,
+				AD8644BB24FA64C50069C5A4 /* 11n.png */,
+				AD8644B124FA64C50069C5A4 /* 13d.png */,
+				AD8644B324FA64C50069C5A4 /* 13n.png */,
+				AD8644B224FA64C50069C5A4 /* 50d.png */,
+				AD8644B924FA64C50069C5A4 /* 50n.png */,
+				AD8644B424FA64C50069C5A4 /* placer.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		AD8644D624FA65AE0069C5A4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD8644E824FA6BA90069C5A4 /* GlobalHelper.swift */,
+				AD8644D724FA65CC0069C5A4 /* Constants.swift */,
+				AD8644DA24FA65CC0069C5A4 /* NetworkManager.swift */,
+				AD8644D824FA65CC0069C5A4 /* Reachability.swift */,
+				AD8644D924FA65CC0069C5A4 /* RequestConfiguration.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AD8644E324FA69090069C5A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD8644E424FA69150069C5A4 /* CityModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +239,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8644ED24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib in Resources */,
+				AD8644CC24FA64C60069C5A4 /* 50n.png in Resources */,
+				AD8644C824FA64C60069C5A4 /* 03d.png in Resources */,
+				AD8644C624FA64C60069C5A4 /* 13n.png in Resources */,
 				AD8644A824FA64600069C5A4 /* LaunchScreen.storyboard in Resources */,
+				AD8644CB24FA64C60069C5A4 /* 10d.png in Resources */,
+				AD8644D324FA64C60069C5A4 /* 09n.png in Resources */,
+				AD8644D424FA64C60069C5A4 /* 11d.png in Resources */,
 				AD8644A524FA64600069C5A4 /* Assets.xcassets in Resources */,
+				AD8644C924FA64C60069C5A4 /* 02d.png in Resources */,
+				AD8644C324FA64C60069C5A4 /* 04d.png in Resources */,
+				AD8644C724FA64C60069C5A4 /* placer.png in Resources */,
+				AD8644C524FA64C60069C5A4 /* 50d.png in Resources */,
+				AD8644CF24FA64C60069C5A4 /* 02n.png in Resources */,
+				AD8644C424FA64C60069C5A4 /* 13d.png in Resources */,
+				AD8644CD24FA64C60069C5A4 /* 03n.png in Resources */,
+				AD8644CE24FA64C60069C5A4 /* 11n.png in Resources */,
+				AD8644D024FA64C60069C5A4 /* 01n.png in Resources */,
+				AD8644D124FA64C60069C5A4 /* 01d.png in Resources */,
 				AD8644A324FA645C0069C5A4 /* Main.storyboard in Resources */,
+				AD8644D524FA64C60069C5A4 /* 09d.png in Resources */,
+				AD8644D224FA64C60069C5A4 /* 10n.png in Resources */,
+				AD8644CA24FA64C60069C5A4 /* 04n.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +272,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8644E524FA69150069C5A4 /* CityModel.swift in Sources */,
+				AD8644DD24FA65CC0069C5A4 /* RequestConfiguration.swift in Sources */,
+				AD8644E024FA67530069C5A4 /* SearchRequestConfig.swift in Sources */,
+				AD8644E724FA6A820069C5A4 /* ViewModel.swift in Sources */,
 				AD8644A024FA645C0069C5A4 /* ViewController.swift in Sources */,
 				AD86449C24FA645C0069C5A4 /* AppDelegate.swift in Sources */,
+				AD8644E924FA6BA90069C5A4 /* GlobalHelper.swift in Sources */,
+				AD8644DE24FA65CC0069C5A4 /* NetworkManager.swift in Sources */,
 				AD86449E24FA645C0069C5A4 /* SceneDelegate.swift in Sources */,
+				AD8644EC24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift in Sources */,
+				AD8644DC24FA65CC0069C5A4 /* Reachability.swift in Sources */,
+				AD8644DB24FA65CC0069C5A4 /* Constants.swift in Sources */,
+				AD8644E224FA68410069C5A4 /* SearchRequestService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
