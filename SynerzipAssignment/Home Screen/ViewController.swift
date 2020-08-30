@@ -11,13 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var backgroundImage: UIImageView!
-    @IBOutlet weak var searchBarView: UISearchBar!
     @IBOutlet weak var detailsCollectionView: UICollectionView!
     @IBOutlet weak var cityNameLabel: UILabel!
     @IBOutlet weak var cityWeatherLabel: UILabel!
     @IBOutlet weak var cityTempLabel: UILabel!
     
     var viewModel = ViewModel()
+    var searchBar: UISearchBar?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,14 +44,10 @@ class ViewController: UIViewController {
     
     func setupSearchBar() {
         
-        guard let UISearchBarBackground: AnyClass = NSClassFromString("UISearchBarBackground") else { return }
-
-        for view in searchBarView.subviews {
-            for subview in view.subviews where subview.isKind(of: UISearchBarBackground) {
-                subview.alpha = 0
-            }
-        }
-        searchBarView.delegate = self
+        searchBar = UISearchBar()
+        searchBar?.showsCancelButton = true
+        self.navigationItem.titleView = searchBar
+        searchBar?.delegate = self
     }
     
     func getCityWhether(cityName: String) {
@@ -81,7 +77,7 @@ extension ViewController: UISearchBarDelegate {
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        searchBarView.text = String()
+        searchBar.text = String()
     }
 }
 

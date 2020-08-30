@@ -97,6 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD761EA824FB881C007AFA31 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AD8644DF24FA67530069C5A4 /* SearchRequestConfig.swift */,
+				AD86449F24FA645C0069C5A4 /* ViewController.swift */,
+				AD8644E124FA68410069C5A4 /* SearchRequestService.swift */,
+				AD8644E624FA6A820069C5A4 /* ViewModel.swift */,
+				AD8644EA24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift */,
+				AD8644EB24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
 		AD86448F24FA645C0069C5A4 = {
 			isa = PBXGroup;
 			children = (
@@ -117,20 +130,15 @@
 			isa = PBXGroup;
 			children = (
 				AD8644E324FA69090069C5A4 /* Models */,
-				AD8644DF24FA67530069C5A4 /* SearchRequestConfig.swift */,
+				AD761EA824FB881C007AFA31 /* Home Screen */,
 				AD8644D624FA65AE0069C5A4 /* Helpers */,
 				AD8644AF24FA64A40069C5A4 /* images */,
 				AD86449B24FA645C0069C5A4 /* AppDelegate.swift */,
 				AD86449D24FA645C0069C5A4 /* SceneDelegate.swift */,
-				AD86449F24FA645C0069C5A4 /* ViewController.swift */,
 				AD8644A124FA645C0069C5A4 /* Main.storyboard */,
 				AD8644A424FA64600069C5A4 /* Assets.xcassets */,
 				AD8644A624FA64600069C5A4 /* LaunchScreen.storyboard */,
 				AD8644A924FA64600069C5A4 /* Info.plist */,
-				AD8644E124FA68410069C5A4 /* SearchRequestService.swift */,
-				AD8644E624FA6A820069C5A4 /* ViewModel.swift */,
-				AD8644EA24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift */,
-				AD8644EB24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib */,
 			);
 			path = SynerzipAssignment;
 			sourceTree = "<group>";
