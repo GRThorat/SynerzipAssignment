@@ -34,11 +34,20 @@ class ViewController: UIViewController {
     
     func updateUI() {
         DispatchQueue.main.async {
-            self.backgroundImage.image = UIImage(named: "\(self.viewModel.cityData?.weather?.first?.icon ?? "placer").png")
-            self.detailsCollectionView.reloadData()
-            self.cityNameLabel.text = self.viewModel.cityData?.name
-            self.cityWeatherLabel.text = self.viewModel.cityData?.weather?.first?.weatherDescription
-            self.cityTempLabel.text = GlobalHelper().convertTemp(temp: self.viewModel.cityData?.main?.temp ?? 0, from: .kelvin, to: .celsius)
+            
+            if self.viewModel.cityDBModel != nil {
+                self.backgroundImage.image = UIImage(named: "\(self.viewModel.cityDBModel?.icon ?? "placer").png")
+                self.detailsCollectionView.reloadData()
+                self.cityNameLabel.text = self.viewModel.cityDBModel?.name
+                self.cityWeatherLabel.text = self.viewModel.cityDBModel?.weatherDescription
+                self.cityTempLabel.text = GlobalHelper().convertTemp(temp: Double(self.viewModel.cityDBModel?.temp ?? 0), from: .kelvin, to: .celsius)
+            } else {
+                self.backgroundImage.image = UIImage(named: "\(self.viewModel.cityData?.weather?.first?.icon ?? "placer").png")
+                self.detailsCollectionView.reloadData()
+                self.cityNameLabel.text = self.viewModel.cityData?.name
+                self.cityWeatherLabel.text = self.viewModel.cityData?.weather?.first?.weatherDescription
+                self.cityTempLabel.text = GlobalHelper().convertTemp(temp: self.viewModel.cityData?.main?.temp ?? 0, from: .kelvin, to: .celsius)
+            }
         }
     }
     
@@ -51,8 +60,12 @@ class ViewController: UIViewController {
     }
     
     func getCityWhether(cityName: String) {
-        
-        viewModel.getCityData(searchText: cityName)
+        if !viewModel.isCityNotAvailable(searchText: cityName) {
+            viewModel.cityDBModel = nil
+            viewModel.getCityData(searchText: cityName)
+        } else {
+            updateUI()
+        }
     }
 }
 
@@ -89,7 +102,11 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return viewModel.cityData != nil ? 9 : 0
+        if viewModel.cityDBModel != nil {
+            return 9
+        } else {
+            return viewModel.cityData != nil ? 9 : 0
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -98,7 +115,11 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         }
         
         cell.cellWidthConstraint.constant = detailsCollectionView.bounds.width / 2
-        cell.configureUI(cityData: viewModel.cityData, index: indexPath.row)
+        if viewModel.cityDBModel != nil {
+            cell.configureUI(cityData: viewModel.cityDBModel, index: indexPath.row)
+        } else {
+            cell.configureUI(cityData: viewModel.cityData, index: indexPath.row)
+        }
         return cell
     }
     

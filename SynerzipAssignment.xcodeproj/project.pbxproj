@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD761EAB24FB8A0B007AFA31 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD761EA924FB8A0B007AFA31 /* Model.xcdatamodeld */; };
+		AD761EB124FBA61A007AFA31 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD761EB024FBA61A007AFA31 /* CoreDataHelper.swift */; };
 		AD86449C24FA645C0069C5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86449B24FA645C0069C5A4 /* AppDelegate.swift */; };
 		AD86449E24FA645C0069C5A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86449D24FA645C0069C5A4 /* SceneDelegate.swift */; };
 		AD8644A024FA645C0069C5A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD86449F24FA645C0069C5A4 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD761EAA24FB8A0B007AFA31 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		AD761EB024FBA61A007AFA31 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		AD86449824FA645C0069C5A4 /* SynerzipAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynerzipAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD86449B24FA645C0069C5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD86449D24FA645C0069C5A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 				AD8644A424FA64600069C5A4 /* Assets.xcassets */,
 				AD8644A624FA64600069C5A4 /* LaunchScreen.storyboard */,
 				AD8644A924FA64600069C5A4 /* Info.plist */,
+				AD761EA924FB8A0B007AFA31 /* Model.xcdatamodeld */,
 			);
 			path = SynerzipAssignment;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				AD8644DA24FA65CC0069C5A4 /* NetworkManager.swift */,
 				AD8644D824FA65CC0069C5A4 /* Reachability.swift */,
 				AD8644D924FA65CC0069C5A4 /* RequestConfiguration.swift */,
+				AD761EB024FBA61A007AFA31 /* CoreDataHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -280,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD761EB124FBA61A007AFA31 /* CoreDataHelper.swift in Sources */,
 				AD8644E524FA69150069C5A4 /* CityModel.swift in Sources */,
 				AD8644DD24FA65CC0069C5A4 /* RequestConfiguration.swift in Sources */,
 				AD8644E024FA67530069C5A4 /* SearchRequestConfig.swift in Sources */,
+				AD761EAB24FB8A0B007AFA31 /* Model.xcdatamodeld in Sources */,
 				AD8644E724FA6A820069C5A4 /* ViewModel.swift in Sources */,
 				AD8644A024FA645C0069C5A4 /* ViewController.swift in Sources */,
 				AD86449C24FA645C0069C5A4 /* AppDelegate.swift in Sources */,
@@ -488,6 +496,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD761EA924FB8A0B007AFA31 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD761EAA24FB8A0B007AFA31 /* Model.xcdatamodel */,
+			);
+			currentVersion = AD761EAA24FB8A0B007AFA31 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AD86449024FA645C0069C5A4 /* Project object */;
 }

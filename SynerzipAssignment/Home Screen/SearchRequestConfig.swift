@@ -18,8 +18,8 @@ enum SearchRequestConfig {
         switch self {
             
         case .searchRequest(let searchText):
-            let urlString = StringConstants.getSearchUrl(cityName: searchText)
-            let reqConfig = RequestConfiguration.init(requestMethod: .get, urlString: urlString)
+            let urlString = StringConstants.getSearchUrl(cityName: searchText).replacingOccurrences(of: " ", with: "%20")
+            let reqConfig = RequestConfiguration.init(requestMethod: .get, urlString: urlString ?? "")
             return reqConfig
         }
     }

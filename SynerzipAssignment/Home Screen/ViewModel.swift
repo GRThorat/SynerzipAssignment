@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+import CoreData
 
 protocol ViewModelDelegate: class {
     func viewModelDidUpdate(_ viewModel: ViewModel)
@@ -15,6 +17,8 @@ protocol ViewModelDelegate: class {
 class ViewModel {
     
     var cityData: CityModel?
+    var cityDBModel: CityData?
+    
     weak var delegate: ViewModelDelegate?
     
     init() {
@@ -28,6 +32,7 @@ class ViewModel {
                 switch response {
                 case .Success(let results):
                     self.cityData = results
+                    CoreDataHelper().addEntryInDB(cityData: self.cityData)
                     self.delegate?.viewModelDidUpdate(self)
                 case .Failure(let message):
                     GlobalHelper.shared.showToast(message: message)
@@ -35,6 +40,16 @@ class ViewModel {
                         GlobalHelper.shared.showToast(message: error)
                 }
             }
+        }
+    }
+    
+    func isCityNotAvailable(searchText: String) -> Bool {
+        let data = CoreDataHelper().isEntryAvailable(cityName: searchText)
+        if data != nil {
+            self.cityDBModel = data
+            return true
+        } else {
+            return false
         }
     }
 }
