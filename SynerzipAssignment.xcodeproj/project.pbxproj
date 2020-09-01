@@ -45,7 +45,18 @@
 		AD8644E924FA6BA90069C5A4 /* GlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644E824FA6BA90069C5A4 /* GlobalHelper.swift */; };
 		AD8644EC24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8644EA24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift */; };
 		AD8644ED24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8644EB24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib */; };
+		ADAC175824FE29F400C6CB6C /* SynerzipAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC175724FE29F400C6CB6C /* SynerzipAssignmentTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAC175A24FE29F400C6CB6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD86449024FA645C0069C5A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD86449724FA645C0069C5A4;
+			remoteInfo = SynerzipAssignment;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AD761EAA24FB8A0B007AFA31 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -88,10 +99,20 @@
 		AD8644E824FA6BA90069C5A4 /* GlobalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalHelper.swift; sourceTree = "<group>"; };
 		AD8644EA24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		AD8644EB24FA8CE70069C5A4 /* WeatherDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		ADAC175524FE29F400C6CB6C /* SynerzipAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynerzipAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAC175724FE29F400C6CB6C /* SynerzipAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynerzipAssignmentTests.swift; sourceTree = "<group>"; };
+		ADAC175924FE29F400C6CB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AD86449524FA645C0069C5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAC175224FE29F400C6CB6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -118,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				AD86449A24FA645C0069C5A4 /* SynerzipAssignment */,
+				ADAC175624FE29F400C6CB6C /* SynerzipAssignmentTests */,
 				AD86449924FA645C0069C5A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				AD86449824FA645C0069C5A4 /* SynerzipAssignment.app */,
+				ADAC175524FE29F400C6CB6C /* SynerzipAssignmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +218,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		ADAC175624FE29F400C6CB6C /* SynerzipAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAC175724FE29F400C6CB6C /* SynerzipAssignmentTests.swift */,
+				ADAC175924FE29F400C6CB6C /* Info.plist */,
+			);
+			path = SynerzipAssignmentTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,6 +247,24 @@
 			productReference = AD86449824FA645C0069C5A4 /* SynerzipAssignment.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ADAC175424FE29F400C6CB6C /* SynerzipAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAC175C24FE29F400C6CB6C /* Build configuration list for PBXNativeTarget "SynerzipAssignmentTests" */;
+			buildPhases = (
+				ADAC175124FE29F400C6CB6C /* Sources */,
+				ADAC175224FE29F400C6CB6C /* Frameworks */,
+				ADAC175324FE29F400C6CB6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAC175B24FE29F400C6CB6C /* PBXTargetDependency */,
+			);
+			name = SynerzipAssignmentTests;
+			productName = SynerzipAssignmentTests;
+			productReference = ADAC175524FE29F400C6CB6C /* SynerzipAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,6 +277,10 @@
 				TargetAttributes = {
 					AD86449724FA645C0069C5A4 = {
 						CreatedOnToolsVersion = 11.4.1;
+					};
+					ADAC175424FE29F400C6CB6C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AD86449724FA645C0069C5A4;
 					};
 				};
 			};
@@ -244,6 +298,7 @@
 			projectRoot = "";
 			targets = (
 				AD86449724FA645C0069C5A4 /* SynerzipAssignment */,
+				ADAC175424FE29F400C6CB6C /* SynerzipAssignmentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,6 +334,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADAC175324FE29F400C6CB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -304,7 +366,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADAC175124FE29F400C6CB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAC175824FE29F400C6CB6C /* SynerzipAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAC175B24FE29F400C6CB6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD86449724FA645C0069C5A4 /* SynerzipAssignment */;
+			targetProxy = ADAC175A24FE29F400C6CB6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AD8644A124FA645C0069C5A4 /* Main.storyboard */ = {
@@ -474,6 +552,44 @@
 			};
 			name = Release;
 		};
+		ADAC175D24FE29F400C6CB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SynerzipAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gt.SynerzipAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynerzipAssignment.app/SynerzipAssignment";
+			};
+			name = Debug;
+		};
+		ADAC175E24FE29F400C6CB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SynerzipAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gt.SynerzipAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynerzipAssignment.app/SynerzipAssignment";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -491,6 +607,15 @@
 			buildConfigurations = (
 				AD8644AD24FA64600069C5A4 /* Debug */,
 				AD8644AE24FA64600069C5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAC175C24FE29F400C6CB6C /* Build configuration list for PBXNativeTarget "SynerzipAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAC175D24FE29F400C6CB6C /* Debug */,
+				ADAC175E24FE29F400C6CB6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
