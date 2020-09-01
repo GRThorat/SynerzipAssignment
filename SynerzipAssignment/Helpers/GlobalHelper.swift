@@ -30,4 +30,17 @@ class GlobalHelper {
         let output = input.converted(to: outputTempType)
         return formatter.string(from: output)
     }
+    
+    func isDateChanged() {
+        let oldDate = UserDefaults.standard.value(forKey: "oldDate") as? Date
+        if oldDate != nil {
+            if !Calendar.current.isDateInToday(oldDate!) {
+                UserDefaults.standard.set(Date(), forKey: "oldDate")
+                CoreDataHelper().deleteAllEntries()
+            }
+        } else {
+            UserDefaults.standard.set(Date(), forKey: "oldDate")
+            CoreDataHelper().deleteAllEntries()
+        }
+    }
 }

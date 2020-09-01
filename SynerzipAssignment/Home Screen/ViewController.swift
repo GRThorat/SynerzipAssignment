@@ -55,6 +55,7 @@ class ViewController: UIViewController {
         
         searchBar = UISearchBar()
         searchBar?.showsCancelButton = true
+        searchBar?.placeholder = "Search for City"
         self.navigationItem.titleView = searchBar
         searchBar?.delegate = self
     }
